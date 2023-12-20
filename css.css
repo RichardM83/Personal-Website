@@ -6,53 +6,46 @@ body {
     font-family: 'Arial', sans-serif;
     background-size: cover;
     color: white;
-    align-items: flex-start; /* Add this line if you want all items aligned to the top */
 }
+
 
 .Sidebar {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     width: 250px;
-    height: 100vh; /* Set the height to full viewport height */
-    display: flex;
     flex-direction: column;
     box-sizing: border-box;
     margin: 0px;
-    position: fixed; /* Add this line to fix the sidebar to the left */
-    left: 0; /* Ensure it sticks to the left */
-    top: 0; /* Ensure it sticks to the top */
 }
-
-
 .SidebarProfile {
     text-align: center;
     margin-bottom: 20px;
 }
-
 .SidebarProfile img {
     width: 100px;
     border-radius: 50%;
 }
-
 .SidebarProfile h1 {
     margin: 10px 0;
 }
-
 .SidebarBody a {
     color: white;
     text-decoration: none;
     display: block;
 }
-
 .SocialMediaIcons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-
 .SocialMediaIcons svg {
     width: 30px;
     height: auto;
     fill: white;
+}
+
+
+.IndexMain {
+    background-image: url("Richie.JPG");
 }
