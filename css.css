@@ -1,25 +1,52 @@
-body {
+body,html {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-size: cover;
-    /* color: white; */
+    color: white;
+    justify-content: center;
 }
 
 .IndexBody {
     background-image: url("Images/RichieEdited.png");
-    background-size: cover;
     background-position: center;
+}
+
+.IndexMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    align-items: center;
+    text-align: center;
+}
+
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .Sidebar {
-    background: rgba(50, 50, 50);
-    padding: 20px;
-    width: 300px;
-    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    background: rgb(50, 50, 50);
+    padding: 1rem;
+    height: 100%;
     box-sizing: border-box;
 }
 .SidebarProfile {
@@ -31,9 +58,6 @@ body {
     border-radius: 50%;
     border: 0.5rem solid black;
 }
-.SidebarProfile h1 {
-    margin: 10px 0;
-}
 .SidebarBody a {
     color: white;
     text-decoration: none;
@@ -43,7 +67,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0.5rem;
 }
 .SocialMediaIcons svg {
     width: 3rem;
@@ -51,18 +75,12 @@ body {
     fill: white;
 }
 
-
-.IndexMain {
-    background-image: url("Richie.JPG");
-}
-
-
 .typed-out{
     overflow: hidden;
     border-right: .15em solid orange;
     white-space: nowrap;
     animation: 
-        typing 1s steps(20, end) forwards,
+        typing 1.5s steps(20, end) forwards,
         blink-caret 1s step-end infinite;
     font-size: 1.6rem;
     width: 0;
