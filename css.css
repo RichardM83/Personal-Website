@@ -72,12 +72,25 @@ body,html {
 }
 .SidebarProfile {
     text-align: center;
-    margin-bottom: 4rem;
+}
+.ProfileImageWrapper {
+    width: 11rem;
+    height: 11rem;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1rem double rgba(29, 42, 68, 1);
 }
 .SidebarProfile img {
-    width: 11rem;
-    border-radius: 50%;
-    border: 0.5rem solid rgba(29, 42, 68, 1);
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform 0.3s ease;
+}
+.SidebarProfile img:hover {
+    transform: scale(1.1);
 }
 .SidebarBody a {
     color: white;
@@ -94,7 +107,13 @@ body,html {
     width: 3rem;
     height: auto;
     fill: white;
+    box-sizing: border-box;
+    transition: padding 0.2s, border 0.2s;
 }
+.SocialMediaIcons svg:hover {
+    padding: 0.3rem;
+}
+
 
 .typed-out{
     overflow: hidden;
@@ -110,7 +129,6 @@ body,html {
     from { width: 0 }
     to { width: 100% }
 }
-
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: rgba(29, 42, 68, 1); }
