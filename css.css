@@ -1,0 +1,118 @@
+/* 
+$beaver: rgba(164, 147, 135, 1);
+$battleship-gray: rgba(124, 132, 128, 1);
+$tyrian-purple: rgba(105, 35, 60, 1);
+$rich-black: rgba(14, 17, 25, 1);
+$feldgrau: rgba(68, 83, 76, 1); 
+*/
+
+
+
+body,html {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+}
+
+.IndexBody {
+    background-image: url("Images/mountain.jpg");
+    background-position: center;
+}
+/* For tint on image*/
+.IndexBody::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+  }
+
+.IndexMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    align-items: center;
+    text-align: center;
+}
+
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    background: rgba(14, 17, 24, 1);
+    padding: 1rem;
+    height: 100%;
+    box-sizing: border-box;
+}
+.SidebarProfile {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.SidebarProfile img {
+    width: 11rem;
+    border-radius: 50%;
+    border: 0.5rem solid rgba(29, 42, 68, 1);
+}
+.SidebarBody a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.SocialMediaIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.SocialMediaIcons svg {
+    width: 3rem;
+    height: auto;
+    fill: white;
+}
+
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid rgba(29, 42, 68, 1);
+    white-space: nowrap;
+    animation: 
+        typing 2s steps(20, end) forwards,
+        blink-caret 1s step-end infinite;
+    font-size: 1.6rem;
+    width: 0;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgba(29, 42, 68, 1); }
+}
+
