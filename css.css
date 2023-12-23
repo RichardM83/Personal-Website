@@ -10,15 +10,20 @@ $alice-blue: rgba(245, 250, 253, 1); white
 $rich-black: rgba(14, 17, 25, 1); navy
 */
 
+@font-face {
+    font-family: appleFont;
+    src: url(Fonts/SF-Pro.ttf);
+}
+
 html {
     height: 100%;
-    font-family: 'Arial', sans-serif;
+    font-family: appleFont;
 }
 
 
 body {
     height: 100%;
-    background-color: rgba(245, 250, 253, 1);
+    background-color: rgb(244, 242, 238);
 }
 
 .IndexBody {
@@ -42,7 +47,7 @@ body {
   }
 
 
-.MainContent {
+.IndexContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,6 +63,7 @@ body {
     margin-left: 20rem;
     box-sizing: border-box;
 }
+
 
 
 .Sidebar {
@@ -132,6 +138,29 @@ body {
 }
 
 
+.ResumeContent {
+    margin-left: 20rem;
+    padding: 20px;
+}
+.ResumeContentSection {
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.ResumeContentSectionTitle {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+.ResumeContentSectionDate {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+.ResumeContentSectioniFrame {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
 
 
 
@@ -154,26 +183,4 @@ body {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: rgba(29, 42, 68, 1); }
-}
-
-
-
-fieldset {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 1em;
-    border-width: 0.5rem;
-    border-style: solid;
-    border-color: rgba(29, 42, 68, 1);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    text-align: center;
-}
-legend {
-    width: auto; /* Reset any specific width that might be applied */
-    margin-left: auto;
-    margin-right: auto;
-    display: block; /* Change the display to block to allow margin auto to work */
 }
