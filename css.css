@@ -159,6 +159,28 @@ body {
 }
 
 
+.PortfolioContent {
+    margin-left: 20rem;
+    padding: 3rem;
+}
+.PortfolioContentEducation {
+    background: #FFFFFF;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+.PortfolioContentEducationTitle {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+.PortfolioContentEducationBlock {
+    background: #FFFFFF;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid rgba(29, 42, 68, 1);
+    padding: 1.5rem;
+    /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5); */
+}
 
 
 
