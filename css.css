@@ -4,13 +4,21 @@ $battleship-gray: rgba(124, 132, 128, 1);
 $tyrian-purple: rgba(105, 35, 60, 1);
 $rich-black: rgba(14, 17, 25, 1);
 $feldgrau: rgba(68, 83, 76, 1); 
+
+
+$alice-blue: rgba(245, 250, 253, 1); white
+$rich-black: rgba(14, 17, 25, 1); navy
 */
 
-
-
-body,html {
+html {
     height: 100%;
     font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    height: 100%;
+    background-color: rgba(245, 250, 253, 1);
 }
 
 .IndexBody {
@@ -41,7 +49,7 @@ body,html {
     align-items: center;
     height: 100%;
     text-align: center;
-    color: white;
+    color: rgba(245, 250, 253, 1);
 }
 .Content {
     display: flex;
@@ -53,15 +61,16 @@ body,html {
 
 
 .Sidebar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 20rem;
+    height: 100%;
+    overflow-y: auto;
     background: rgba(14, 17, 24, 1);
     padding: 1rem;
-    height: 100%;
     box-sizing: border-box;
-    color: white;
+    color: rgba(245, 250, 253, 1);
 }
 .SidebarProfile {
     text-align: center;
@@ -95,7 +104,7 @@ body,html {
 .SidebarProfileSocialMediaIcons svg {
     width: 3rem;
     height: auto;
-    fill: white;
+    fill: rgba(245, 250, 253, 1);
     box-sizing: border-box;
     transition: padding 0.2s, border 0.2s;
 }
@@ -118,8 +127,8 @@ body,html {
     transition: padding 0.2s, border 0.2s;
 }
 .SidebarContent a:hover, .SidebarContent a:hover svg {
-    color: white;
-    fill: white;
+    color: rgba(245, 250, 253, 1);
+    fill: rgba(245, 250, 253, 1);
 }
 
 
@@ -147,3 +156,24 @@ body,html {
     50% { border-color: rgba(29, 42, 68, 1); }
 }
 
+
+
+fieldset {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    border-width: 0.5rem;
+    border-style: solid;
+    border-color: rgba(29, 42, 68, 1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+}
+legend {
+    width: auto; /* Reset any specific width that might be applied */
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Change the display to block to allow margin auto to work */
+}
