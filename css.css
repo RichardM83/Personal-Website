@@ -140,25 +140,21 @@ body {
 
 .ResumeContent {
     margin-left: 20rem;
-    padding: 20px;
+    padding: 3rem;
 }
 .ResumeContentSection {
     background: #FFFFFF;
-    margin-bottom: 20px;
-    padding: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 .ResumeContentSectionTitle {
-    font-size: 1.5em;
-    margin-bottom: 5px;
-}
-.ResumeContentSectionDate {
-    font-size: 1em;
-    margin-bottom: 15px;
+    font-size: 2rem;
+    margin-bottom: .5rem;
 }
 .ResumeContentSectioniFrame {
     width: 100%;
-    height: 500px;
+    height: 40rem;
     border: none;
 }
 
