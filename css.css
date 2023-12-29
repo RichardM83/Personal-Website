@@ -230,10 +230,7 @@ p.extra {
     justify-content: space-between;
     margin: 0 auto;
 }
-
-
-
-.PortfolioContentSkillBlock, .PortfolioContentSoftwareBlock {
+.PortfolioContentSkillBlock {
     background: #FFFFFF;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
     border-radius: .75rem;
@@ -244,8 +241,9 @@ p.extra {
     height: 20rem;
     box-sizing: border-box;
     overflow-y: auto;
+    margin-bottom: 3rem;
 }
-.PortfolioContentSkillBlock h2, .PortfolioContentSoftwareBlock h2 {
+.PortfolioContentSkillBlock h2 {
     position: sticky;
     top: 0;
     background: white;
@@ -255,22 +253,13 @@ p.extra {
     z-index: 10;
     padding: .25rem;
 }
-.PortfolioContentSkillBlock ul, .PortfolioContentSoftwareBlock ul {
+.PortfolioContentSkillBlock ul {
     list-style-type: none;
     padding: 0;
     margin-top: 0rem;
 }
-.PortfolioContentSkillBlock ul li, .PortfolioContentSoftwareBlock ul li {
+.PortfolioContentSkillBlock ul li {
     margin-bottom: 0.5rem;
-}
-.PortfolioContentSkillBlockSkill {
-    background-color: #ddd;
-    border-radius: .75rem;
-}
-
-.PortfolioContentSkillBlockSkill ul {
-    max-height: 300px;
-    overflow-y: auto;
 }
 .skills {
     padding-top: .75rem;
@@ -289,7 +278,6 @@ p.extra {
 .swift {width: 60%; background-color: #7cade9;}
 .matlab {width: 60%; background-color: #7cade9;}
 .r {width: 60%; background-color: #7cade9;}
-
 .vs {width: 100%; background-color: #20314f;}
 .mic {width: 100%; background-color: #20314f;}
 .eclipse {width: 90%; background-color: #305686;}
@@ -300,7 +288,42 @@ p.extra {
 .adobe {width: 60%; background-color: #7cade9;}
 .rs {width: 60%; background-color: #7cade9;}
 
-
-
-
+.PortfolioContentExperience {
+    background: #FFFFFF;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.PortfolioContentExperience h2 {
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+.PortfolioContentExperienceBlock {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: .75rem;
+    margin-top: 1rem;
+    /* border: 0.1rem solid rgba(29, 42, 68, 1); */
+    padding: 0.5rem;
+}
+.PortfolioContentExperienceBlockExperience {
+    flex-grow: 1;
+    margin-left: 0.4rem;
+}
+.PortfolioContentExperienceBlockExperience h3 {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.PortfolioContentExperienceBlockExperience p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding: 0;
+}
+.PortfolioContentExperienceBlockGraphic img {
+    width: 5rem;
+}
 
