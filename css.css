@@ -300,21 +300,21 @@ p.extra {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
     border-radius: .75rem;
 }
-.PortfolioContentCertificationsBlock h3, .PortfolioContentCertificationsBlock p {
-    margin: 0.5rem;
-}
 .PortfolioContentCertifications h2 {
     font-size: 1.5rem;
     margin-top: 0rem;
     margin-bottom: .5rem;
     text-align: center;
 }
+.PortfolioContentCertifications a, .PortfolioContentCertifications a:visited {
+    color: inherit;
+    text-decoration: none;
+}
 .PortfolioContentCertificationsBlocks {
     display: flex;
-    overflow-x: auto;
 }
 .PortfolioContentCertificationsBlock {
-    width: 30%;
+    width: 98%;
     text-align: center;
     border: 1px solid #e1e1e1; /* Adds a light border */
     border-radius: 1rem; /* Rounds the corners */
@@ -322,8 +322,15 @@ p.extra {
     margin-left: .25rem;
     margin-right: .25rem;
 }
-
+.PortfolioContentCertificationsBlock:hover {
+    transform: scale(.95);
+}
+.PortfolioContentCertificationsBlock h3, .PortfolioContentCertificationsBlock p {
+    margin: 0.5rem;
+}
 .PortfolioContentCertificationsBlock img {
     width: 15rem;
-    margin: 10px;
+    margin: .65rem;
+    height: 12rem;
 }
+
