@@ -228,12 +228,12 @@ p.extra {
     width: 5rem;
 }
 
-.PortfolioContentSkills {
+.PortfolioContentSmall {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
 }
-.PortfolioContentSkillBlock {
+.PortfolioContentSmallBlock {
     background: #FFFFFF;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
     border-radius: .75rem;
@@ -246,7 +246,7 @@ p.extra {
     overflow-y: auto;
     margin-bottom: 3rem;
 }
-.PortfolioContentSkillBlock h2 {
+.PortfolioContentSmallBlock h2 {
     position: sticky;
     top: 0;
     background: white;
@@ -256,13 +256,13 @@ p.extra {
     z-index: 10;
     padding: .25rem;
 }
-.PortfolioContentSkillBlock ul {
+.PortfolioContentSmallBlock ul {
     list-style-type: none;
     padding: 0;
     margin-top: 0rem;
 }
-.PortfolioContentSkillBlock ul li {
-    margin-bottom: 0.5rem;
+.PortfolioContentSmallBlock ul li {
+    margin-bottom: 0.4rem;
 }
 
 .skills {
@@ -291,3 +291,40 @@ p.extra {
 .pg {width: 80%; background-color: #4b78aa;}
 .adobe {width: 60%; background-color: #7cade9;}
 .rs {width: 60%; background-color: #7cade9;}
+
+
+.PortfolioContentCertifications {
+    background: #FFFFFF;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    border-radius: .75rem;
+}
+
+.PortfolioContentCertifications h2 {
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.PortfolioContentCertificationsSlider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* for smooth scrolling on iOS */
+}
+
+.PortfolioContentCertificationsBlock {
+    flex: 0 0 auto;
+    width: 40%;
+}
+
+.PortfolioContentCertificationsSlider::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.PortfolioContentCertificationsSlider {
+    -ms-overflow-style: none; /* for Internet Explorer and Edge */
+    scrollbar-width: none; /* for Firefox */
+}
