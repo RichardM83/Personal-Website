@@ -305,6 +305,9 @@ p.extra {
     margin-top: 0rem;
     margin-bottom: .5rem;
     text-align: center;
+
+    padding-bottom: 1rem;
+    box-sizing: border-box;
 }
 .PortfolioContentCertifications a, .PortfolioContentCertifications a:visited {
     color: inherit;
@@ -312,15 +315,22 @@ p.extra {
 }
 .PortfolioContentCertificationsBlocks {
     display: flex;
+
+    overflow-x: auto;
+    white-space: nowrap;
 }
 .PortfolioContentCertificationsBlock {
-    width: 98%;
+    width: 16.5rem;
     text-align: center;
     border: 1px solid #e1e1e1; /* Adds a light border */
     border-radius: 1rem; /* Rounds the corners */
     box-sizing: border-box;
     margin-left: .25rem;
     margin-right: .25rem;
+
+    width: auto;
+    display: inline-block;
+    flex: 0 0 auto;
 }
 .PortfolioContentCertificationsBlock:hover {
     transform: scale(.95);
