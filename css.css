@@ -196,6 +196,10 @@ body {
     margin-bottom: .5rem;
     text-align: center;
 }
+.PortfolioContentLarge a, .PortfolioContentLarge a:visited {
+    color: inherit;
+    text-decoration: none;
+}
 .PortfolioContentLargeBlock {
     display: flex;
     align-items: center;
@@ -264,7 +268,34 @@ p.extra {
 .PortfolioContentSmallBlock ul li {
     margin-bottom: 0.4rem;
 }
-
+.PortfolioContentScrollBlocks {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.PortfolioContentScrollBlock {
+    width: 16.5rem;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    width: auto;
+    display: inline-block;
+    flex: 0 0 auto;
+}
+.PortfolioContentScrollBlock:hover {
+    transform: scale(.95);
+}
+.PortfolioContentScrollBlock h3, .PortfolioContentScrollBlock p {
+    margin: 0.5rem;
+}
+.PortfolioContentScrollBlock img {
+    width: 15rem;
+    margin: .65rem;
+    height: 12rem;
+}
 .skills {
     padding-top: .75rem;
     padding-bottom: .65rem;
@@ -293,54 +324,6 @@ p.extra {
 .rs {width: 60%; background-color: #7cade9;}
 
 
-.PortfolioContentCertifications {
-    background: #FFFFFF;
-    margin-bottom: 1rem;
-    padding: 1.5rem;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
-    border-radius: .75rem;
-}
-.PortfolioContentCertifications h2 {
-    font-size: 1.5rem;
-    margin-top: 0rem;
-    margin-bottom: .5rem;
-    text-align: center;
 
-    padding-bottom: 1rem;
-    box-sizing: border-box;
-}
-.PortfolioContentCertifications a, .PortfolioContentCertifications a:visited {
-    color: inherit;
-    text-decoration: none;
-}
-.PortfolioContentCertificationsBlocks {
-    display: flex;
 
-    overflow-x: auto;
-    white-space: nowrap;
-}
-.PortfolioContentCertificationsBlock {
-    width: 16.5rem;
-    text-align: center;
-    border: 1px solid #e1e1e1; /* Adds a light border */
-    border-radius: 1rem; /* Rounds the corners */
-    box-sizing: border-box;
-    margin-left: .25rem;
-    margin-right: .25rem;
-
-    width: auto;
-    display: inline-block;
-    flex: 0 0 auto;
-}
-.PortfolioContentCertificationsBlock:hover {
-    transform: scale(.95);
-}
-.PortfolioContentCertificationsBlock h3, .PortfolioContentCertificationsBlock p {
-    margin: 0.5rem;
-}
-.PortfolioContentCertificationsBlock img {
-    width: 15rem;
-    margin: .65rem;
-    height: 12rem;
-}
 
