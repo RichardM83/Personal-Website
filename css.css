@@ -183,20 +183,20 @@ body {
     margin-left: 20rem;
     padding: 3rem;
 }
-.PortfolioContentEducation {
+.PortfolioContentEducation, .PortfolioContentExperience {
     background: #FFFFFF;
     margin-bottom: 3rem;
     padding: 1.5rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
     border-radius: 15px;
 }
-.PortfolioContentEducation h2 {
+.PortfolioContentEducation h2, .PortfolioContentExperience h2 {
     font-size: 1.5rem;
     margin-top: 0rem;
     margin-bottom: .5rem;
     text-align: center;
 }
-.PortfolioContentEducationBlock {
+.PortfolioContentEducationBlock, .PortfolioContentExperienceBlock {
     display: flex;
     align-items: center;
     background: #FFFFFF;
@@ -205,23 +205,26 @@ body {
     /* border: 0.1rem solid rgba(29, 42, 68, 1); */
     padding: 0.5rem;
 }
-.PortfolioContentEducationBlockSchool {
+.PortfolioContentEducationBlockSchool, .PortfolioContentExperienceBlockExperience {
     flex-grow: 1;
     margin-left: 0.4rem;
 }
-.PortfolioContentEducationBlockSchool h3 {
+.PortfolioContentEducationBlockSchool h3, .PortfolioContentExperienceBlockExperience h3 {
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
 }
-.PortfolioContentEducationBlockSchool p {
+.PortfolioContentEducationBlockSchool p, .PortfolioContentExperienceBlockExperience p {
     margin-top: 0rem;
     margin-bottom: 0rem;
     padding: 0;
 }
+.PortfolioContentExperienceBlockExperience ul {
+    margin-left: -1rem;
+}
 p.extra {
     margin-top: 1rem;
 }
-.PortfolioContentEducationBlockGraphic img {
+.PortfolioContentEducationBlockGraphic img, .PortfolioContentExperienceBlockGraphic img {
     width: 5rem;
 }
 
@@ -261,6 +264,7 @@ p.extra {
 .PortfolioContentSkillBlock ul li {
     margin-bottom: 0.5rem;
 }
+
 .skills {
     padding-top: .75rem;
     padding-bottom: .65rem;
@@ -287,43 +291,3 @@ p.extra {
 .pg {width: 80%; background-color: #4b78aa;}
 .adobe {width: 60%; background-color: #7cade9;}
 .rs {width: 60%; background-color: #7cade9;}
-
-.PortfolioContentExperience {
-    background: #FFFFFF;
-    margin-bottom: 3rem;
-    padding: 1.5rem;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-}
-.PortfolioContentExperience h2 {
-    font-size: 1.5rem;
-    margin-top: 0rem;
-    margin-bottom: .5rem;
-    text-align: center;
-}
-.PortfolioContentExperienceBlock {
-    display: flex;
-    align-items: center;
-    background: #FFFFFF;
-    border-radius: .75rem;
-    margin-top: 1rem;
-    /* border: 0.1rem solid rgba(29, 42, 68, 1); */
-    padding: 0.5rem;
-}
-.PortfolioContentExperienceBlockExperience {
-    flex-grow: 1;
-    margin-left: 0.4rem;
-}
-.PortfolioContentExperienceBlockExperience h3 {
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
-}
-.PortfolioContentExperienceBlockExperience p {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    padding: 0;
-}
-.PortfolioContentExperienceBlockGraphic img {
-    width: 5rem;
-}
-
