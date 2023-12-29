@@ -196,7 +196,7 @@ body {
     margin-bottom: .5rem;
     text-align: center;
 }
-.PortfolioContentEducationBlock {
+.PortfolioContentLargeBlock {
     display: flex;
     align-items: center;
     background: #FFFFFF;
@@ -205,26 +205,26 @@ body {
     /* border: 0.1rem solid rgba(29, 42, 68, 1); */
     padding: 0.5rem;
 }
-.PortfolioContentEducationBlockSchool {
+.PortfolioContentLargeBlockInfo {
     flex-grow: 1;
     margin-left: 0.4rem;
 }
-.PortfolioContentEducationBlockSchool h3 {
+.PortfolioContentLargeBlockInfo h3 {
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
 }
-.PortfolioContentEducationBlockSchool p {
+.PortfolioContentLargeBlockInfo p {
     margin-top: 0rem;
     margin-bottom: 0rem;
     padding: 0;
 }
-.PortfolioContentEducationBlockSchool ul {
+.PortfolioContentLargeBlockInfo ul {
     margin-left: -1rem;
 }
 p.extra {
     margin-top: 1rem;
 }
-.PortfolioContentEducationBlockGraphic img {
+.PortfolioContentLargeBlockGraphic img {
     width: 5rem;
 }
 
