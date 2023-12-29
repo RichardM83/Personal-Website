@@ -98,6 +98,7 @@ body {
     padding: 1rem;
     box-sizing: border-box;
     color: rgba(245, 250, 253, 1);
+    z-index: 10;
 }
 .SidebarProfile {
     text-align: center;
@@ -162,7 +163,7 @@ body {
     padding: 3rem;
 }
 .ResumeContentSection {
-    background: #FFFFFF;
+    background: rgba(245, 250, 253, 1);
     margin-bottom: 3rem;
     padding: 1.5rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
@@ -179,12 +180,48 @@ body {
 }
 
 /* ================================================================ PORTFOLIO ================================================================ */
+#header {
+    position: fixed;
+    top: 0;
+    left: 20rem; 
+    width: 100%;
+    background: #305686;
+    z-index: 2;
+    text-align: center;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+#header a, #header .separator {
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+}
+#header a:hover {
+  text-decoration:underline;
+}
+:target {
+    scroll-margin-top: 4rem;
+}
+.headerLeft {
+    margin-left: 1rem;
+    color: white;
+}
+.headerRight {
+    margin-right: 23rem;
+    text-align: right;
+}
+
+
+
+
 .PortfolioContent {
     margin-left: 20rem;
     padding: 3rem;
 }
 .PortfolioContentLarge {
-    background: #FFFFFF;
+    background: rgba(245, 250, 253, 1);
     margin-bottom: 3rem;
     padding: 1.5rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
@@ -192,8 +229,7 @@ body {
 }
 .PortfolioContentLarge h2 {
     font-size: 1.5rem;
-    margin-top: 0rem;
-    margin-bottom: .5rem;
+    margin-top: 0;
     text-align: center;
 }
 .PortfolioContentLarge a, .PortfolioContentLarge a:visited {
@@ -203,7 +239,7 @@ body {
 .PortfolioContentLargeBlock {
     display: flex;
     align-items: center;
-    background: #FFFFFF;
+    background: rgba(245, 250, 253, 1);
     border-radius: .75rem;
     margin-top: 1rem;
     /* border: 0.1rem solid rgba(29, 42, 68, 1); */
@@ -218,8 +254,8 @@ body {
     margin-bottom: 0.2rem;
 }
 .PortfolioContentLargeBlockInfo p {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
 }
 .PortfolioContentLargeBlockInfo ul {
@@ -238,7 +274,7 @@ p.extra {
     margin: 0 auto;
 }
 .PortfolioContentSmallBlock {
-    background: #FFFFFF;
+    background: rgba(245, 250, 253, 1);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
     border-radius: .75rem;
     padding-top: 0;
@@ -253,17 +289,17 @@ p.extra {
 .PortfolioContentSmallBlock h2 {
     position: sticky;
     top: 0;
-    background: white;
+    background: rgba(245, 250, 253, 1);
     margin-top: 1rem;
     font-size: 1.5rem;
     text-align: center;
-    z-index: 10;
+    z-index: 1;
     padding: .25rem;
 }
 .PortfolioContentSmallBlock ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 0rem;
+    margin-top: 0;
 }
 .PortfolioContentSmallBlock ul li {
     margin-bottom: 0.4rem;
@@ -299,7 +335,7 @@ p.extra {
 .skills {
     padding-top: .75rem;
     padding-bottom: .65rem;
-    color: white;
+    color: rgba(245, 250, 253, 1);
     border-radius: .65rem;
 }
 .python {width: 100%; background-color: #20314f;}
@@ -323,7 +359,19 @@ p.extra {
 .adobe {width: 60%; background-color: #7cade9;}
 .rs {width: 60%; background-color: #7cade9;}
 
-
-
-
-
+/* ================================================================ CONTACT ================================================================ */
+.ContactContent {
+    margin-left: 20rem;
+    padding: 3rem;
+}
+.ContactContentLarge {
+    background: rgba(245, 250, 253, 1);
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    border-radius: .75rem;
+}
+.ContactContentLarge h2 {
+    font-size: 3rem;
+    text-align: center;
+}
