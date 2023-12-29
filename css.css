@@ -230,33 +230,34 @@ p.extra {
     justify-content: space-between;
     margin: 0 auto;
 }
+
+
+
 .PortfolioContentSkillBlock, .PortfolioContentSoftwareBlock {
     background: #FFFFFF;
-    padding: 1.5rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
     border-radius: .75rem;
+    padding-top: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     flex-basis: 48%;
     height: 20rem;
     box-sizing: border-box;
-    /* overflow-y: auto; */
+    overflow-y: auto;
 }
 .PortfolioContentSkillBlock h2, .PortfolioContentSoftwareBlock h2 {
     position: sticky;
     top: 0;
     background: white;
-    padding: 1rem 2rem;
+    margin-top: 1rem;
     font-size: 1.5rem;
-    margin-top: 0rem;
     text-align: center;
-    z-index: 5;
+    z-index: 10;
 }
 .PortfolioContentSkillBlock ul, .PortfolioContentSoftwareBlock ul {
     list-style-type: none;
     padding: 0;
-    max-height: 300px;
-    overflow-y: auto;
-    padding: 0;
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 .PortfolioContentSkillBlock ul li, .PortfolioContentSoftwareBlock ul li {
     margin-bottom: 0.5rem;
@@ -265,6 +266,7 @@ p.extra {
     background-color: #ddd;
     border-radius: .75rem;
 }
+
 .PortfolioContentSkillBlockSkill ul {
     max-height: 300px;
     overflow-y: auto;
