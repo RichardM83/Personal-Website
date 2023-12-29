@@ -253,6 +253,7 @@ p.extra {
     font-size: 1.5rem;
     text-align: center;
     z-index: 10;
+    padding: .25rem;
 }
 .PortfolioContentSkillBlock ul, .PortfolioContentSoftwareBlock ul {
     list-style-type: none;
@@ -277,19 +278,29 @@ p.extra {
     color: white;
     border-radius: .65rem;
 }
-.python {width: 90%; background-color: #04AA6D;}
-.java {width: 90%; background-color: #04AA6D;}
-.html {width: 90%; background-color: #04AA6D;}
-.js {width: 90%; background-color: #04AA6D;}
-.c {width: 80%; background-color: #46aa04;}
-.sql {width: 80%; background-color: #46aa04;}
+.python {width: 100%; background-color: #20314f;}
+.java {width: 100%; background-color: #20314f;}
+.html {width: 100%; background-color: #20314f;}
+.js {width: 90%; background-color: #305686;}
+.sql {width: 90%; background-color: #305686;}
+.c {width: 80%; background-color: #4b78aa;}
+.ocaml {width: 80%; background-color: #4b78aa;}
+.racket {width: 80%; background-color: #4b78aa;}
+.swift {width: 60%; background-color: #7cade9;}
+.matlab {width: 60%; background-color: #7cade9;}
+.r {width: 60%; background-color: #7cade9;}
 
-.vs {width: 90%; background-color: #04AA6D;}
-.eclipse {width: 90%; background-color: #04AA6D;}
-.xcode {width: 90%; background-color: #04AA6D;}
-.gappscript {width: 90%; background-color: #04AA6D;}
-.mic {width: 80%; background-color: #46aa04;}
-.pg {width: 80%; background-color: #46aa04;}
+.vs {width: 100%; background-color: #20314f;}
+.mic {width: 100%; background-color: #20314f;}
+.eclipse {width: 90%; background-color: #305686;}
+.postman {width: 90%; background-color: #305686;}
+.gappscript {width: 80%; background-color: #4b78aa;}
+.xcode {width: 80%; background-color: #4b78aa;}
+.pg {width: 80%; background-color: #4b78aa;}
+.adobe {width: 60%; background-color: #7cade9;}
+.rs {width: 60%; background-color: #7cade9;}
+
+
 
 
 
