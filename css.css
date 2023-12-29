@@ -78,7 +78,7 @@ body {
 }
 @keyframes typing {
     from { width: 0 }
-    to { width: 70% }
+    to { width: 20rem }
 }
 @keyframes blink-caret {
     from, to { border-color: transparent }
@@ -183,20 +183,20 @@ body {
     margin-left: 20rem;
     padding: 3rem;
 }
-.PortfolioContentEducation, .PortfolioContentExperience {
+.PortfolioContentLarge {
     background: #FFFFFF;
     margin-bottom: 3rem;
     padding: 1.5rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
+    border-radius: .75rem;
 }
-.PortfolioContentEducation h2, .PortfolioContentExperience h2 {
+.PortfolioContentLarge h2 {
     font-size: 1.5rem;
     margin-top: 0rem;
     margin-bottom: .5rem;
     text-align: center;
 }
-.PortfolioContentEducationBlock, .PortfolioContentExperienceBlock {
+.PortfolioContentEducationBlock {
     display: flex;
     align-items: center;
     background: #FFFFFF;
@@ -205,26 +205,26 @@ body {
     /* border: 0.1rem solid rgba(29, 42, 68, 1); */
     padding: 0.5rem;
 }
-.PortfolioContentEducationBlockSchool, .PortfolioContentExperienceBlockExperience {
+.PortfolioContentEducationBlockSchool {
     flex-grow: 1;
     margin-left: 0.4rem;
 }
-.PortfolioContentEducationBlockSchool h3, .PortfolioContentExperienceBlockExperience h3 {
+.PortfolioContentEducationBlockSchool h3 {
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
 }
-.PortfolioContentEducationBlockSchool p, .PortfolioContentExperienceBlockExperience p {
+.PortfolioContentEducationBlockSchool p {
     margin-top: 0rem;
     margin-bottom: 0rem;
     padding: 0;
 }
-.PortfolioContentExperienceBlockExperience ul {
+.PortfolioContentEducationBlockSchool ul {
     margin-left: -1rem;
 }
 p.extra {
     margin-top: 1rem;
 }
-.PortfolioContentEducationBlockGraphic img, .PortfolioContentExperienceBlockGraphic img {
+.PortfolioContentEducationBlockGraphic img {
     width: 5rem;
 }
 
