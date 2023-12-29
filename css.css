@@ -268,7 +268,7 @@ p.extra {
 .PortfolioContentSmallBlock ul li {
     margin-bottom: 0.4rem;
 }
-.PortfolioContentScrollBlocks {
+.PortfolioContentScroll {
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
