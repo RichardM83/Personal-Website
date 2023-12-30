@@ -332,34 +332,60 @@ p.extra {
     margin: .65rem;
     height: 12rem;
 }
+
 .skills {
-    padding-top: .75rem;
-    padding-bottom: .65rem;
-    color: rgba(245, 250, 253, 1);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-radius: .65rem;
+    position: relative;
 }
-.python {width: 100%; background-color: #20314f;}
-.java {width: 100%; background-color: #20314f;}
-.html {width: 100%; background-color: #20314f;}
-.js {width: 90%; background-color: #305686;}
-.sql {width: 90%; background-color: #305686;}
-.c {width: 80%; background-color: #4b78aa;}
-.ocaml {width: 80%; background-color: #4b78aa;}
-.racket {width: 80%; background-color: #4b78aa;}
-.swift {width: 60%; background-color: #7cade9;}
-.matlab {width: 60%; background-color: #7cade9;}
-.r {width: 60%; background-color: #7cade9;}
-.vs {width: 100%; background-color: #20314f;}
-.mic {width: 100%; background-color: #20314f;}
-.eclipse {width: 90%; background-color: #305686;}
-.postman {width: 90%; background-color: #305686;}
-.gappscript {width: 80%; background-color: #4b78aa;}
-.xcode {width: 80%; background-color: #4b78aa;}
-.pg {width: 80%; background-color: #4b78aa;}
-.adobe {width: 60%; background-color: #7cade9;}
-.rs {width: 60%; background-color: #7cade9;}
+.skill-label {
+    color: white;
+    position: absolute;
+    right: 10px;
+    font-size: 0.75rem;
+    top: 30%;
+}
+.python {width: 100%; border-radius: .5rem; background-color: #20314f;}
+.java {width: 100%; border-radius: .5rem; background-color: #20314f;}
+.html {width: 100%; border-radius: .5rem; background-color: #20314f;}
+.js {width: 90%; border-radius: .5rem; background-color: #305686;}
+.sql {width: 90%; border-radius: .5rem; background-color: #305686;}
+.c {width: 80%; border-radius: .5rem; background-color: #4b78aa;}
+.ocaml {width: 80%; border-radius: .5rem; background-color: #4b78aa;}
+.racket {width: 80%; border-radius: .5rem; background-color: #4b78aa;}
+.swift {width: 60%; border-radius: .5rem; background-color: #7cade9;}
+.matlab {width: 60%; border-radius: .5rem; background-color: #7cade9;}
+.r {width: 60%; border-radius: .5rem; background-color: #7cade9;}
+.vs {width: 100%; border-radius: .5rem; background-color: #20314f;}
+.mic {width: 100%; border-radius: .5rem; background-color: #20314f;}
+.eclipse {width: 90%; border-radius: .5rem; background-color: #305686;}
+.postman {width: 90%; border-radius: .5rem; background-color: #305686;}
+.gappscript {width: 80%; border-radius: .5rem; background-color: #4b78aa;}
+.xcode {width: 80%; border-radius: .5rem; background-color: #4b78aa;}
+.pg {width: 80%; border-radius: .5rem; background-color: #4b78aa;}
+.rs {width: 60%; border-radius: .5rem; background-color: #7cade9;}
+.adobe {width: 60%; border-radius: .5rem; background-color: #7cade9;}
+
+
 
 /* ================================================================ CONTACT ================================================================ */
+/* .ContactContent {
+    margin-left: 20rem;
+    padding: 3rem;
+}
+.ContactContentLarge {
+    background: rgba(245, 250, 253, 1);
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    border-radius: .75rem;
+}
+.ContactContentLarge h2 {
+    font-size: 3rem;
+    text-align: center;
+} */
+
 .ContactContent {
     margin-left: 20rem;
     padding: 3rem;
@@ -375,3 +401,50 @@ p.extra {
     font-size: 3rem;
     text-align: center;
 }
+
+.contact-info p {
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.contact-form .form-group label {
+    display: block;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.contact-form .form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
