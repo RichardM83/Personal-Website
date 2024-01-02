@@ -72,7 +72,7 @@
                 <p>Email: rjmartinez422@gmail.com</p>
                 <p>Phone Number: (240)-756-9333</p>
             </div>
-            <form class="contact-form">
+            <form class="contact-form" onsubmit="sendEmail(event);">
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name">
@@ -92,6 +92,32 @@
                 <button type="submit">Send</button>
             </form>
         </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(email) {
+                event.preventDefault();
+
+                Email.send({
+                    Host : "smtp.gmail.com",
+                    To : 'rjmartinez422@gmail.com',
+                    From : document.getElementById("email").value,
+                    Subject : "WEBSITE: " + document.getElementById("subject").value,
+                    Body : "Name: " + document.getElementById("name").value 
+                         + "<br> Email: " + document.getElementById("email").value 
+                         + "<br> Message: " + document.getElementById("message").value 
+                }).then(
+                    message => {
+                        alert("Message Sent Successfully");
+                        document.querySelector(".contact-form").reset(); // Reset the form after successful submission
+                    }
+                ).catch(
+                    error => {
+                        alert("Failed to send the message");
+                        console.error('Email send error:', error);
+                    }
+                );
+            }
+        </script>
     </div>
     
 </body>
