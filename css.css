@@ -234,7 +234,7 @@ body {
 }
 .ContentLargeBlockInfo h4 {
     margin-top: 1rem;
-    margin-bottom: 0;
+    margin-bottom: .25rem;
 }
 .ContentLargeBlockInfo p {
     margin-top: 0;
@@ -250,6 +250,19 @@ p.extra {
 }
 .ContentLargeBlockGraphic img {
     width: 5rem;
+}
+
+
+.ContentLargeBlockInfoSmall {
+    margin-bottom: 0.1rem;
+}
+.ContentLargeBlockInfoSmall a {
+    display: flex;
+    align-items: center;
+}
+.ContentLargeBlockInfoSmall img {
+    margin-right: .5rem;
+    width: 1.5rem;
 }
 
 .ContentSmall {
