@@ -57,6 +57,7 @@ body {
     height: 100%;
     text-align: center;
     color: rgba(245, 250, 253, 1);
+    padding-left: 100px;
 }
 .typed-out{
     overflow: hidden;
