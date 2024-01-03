@@ -162,6 +162,7 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
+    margin-bottom: 1rem;
 }
 #header a, #header .separator {
   color: white;
@@ -199,6 +200,7 @@ body {
 .Content {
     margin-left: 20rem;
     padding: 3rem;
+    margin-top:1rem;
 }
 .ContentLarge {
     background: rgba(245, 250, 253, 1);
