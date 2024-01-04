@@ -48,7 +48,10 @@ body {
     left: 0;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: -1;
-  }
+}
+.IndexContent h1 {
+    margin-bottom: 0;
+}
 .IndexContent {
     display: flex;
     flex-direction: column;
@@ -325,6 +328,7 @@ p.extra {
     width: auto;
     display: inline-block;
     flex: 0 0 auto;
+    background: white;
 }
 .ContentScrollBlock:hover {
     transform: scale(.95);
