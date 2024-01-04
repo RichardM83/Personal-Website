@@ -253,7 +253,12 @@ p.extra {
 .ContentLargeBlockGraphic img {
     width: 5rem;
 }
-
+.ContentSmall a {
+    display: block;
+    flex-basis: 48%;
+    text-decoration: none;
+    color: black;
+}
 
 .ContentLargeBlockInfoSmall {
     margin-bottom: 0.1rem;
