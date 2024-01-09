@@ -255,6 +255,7 @@ p.extra {
 }
 .ContentLargeBlockGraphic img {
     width: 5rem;
+    padding: 1rem;
 }
 .ContentSmall a {
     display: block;
@@ -329,6 +330,7 @@ p.extra {
     display: inline-block;
     flex: 0 0 auto;
     background: white;
+    transition: transform 0.15s ease;
 }
 .ContentScrollBlock:hover {
     transform: scale(.95);
