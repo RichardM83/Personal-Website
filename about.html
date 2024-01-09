@@ -43,10 +43,10 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" viewBox="0 0 50 50"><path d="M25,2C12.297,2,2,12.297,2,25s10.297,23,23,23s23-10.297,23-23S37.703,2,25,2z M25,11c1.657,0,3,1.343,3,3s-1.343,3-3,3 s-3-1.343-3-3S23.343,11,25,11z M29,38h-2h-4h-2v-2h2V23h-2v-2h2h4v2v13h2V38z"></path></svg>
                 About
             </a>
-            <a href="credentials.html">
+            <!-- <a href="credentials.html">
                 <svg viewBox="0 0 32 32" width="100" height="40" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>profile1</title> <path d="M23 11.031c0-0.553-0.448-1-1-1h-3c0 0 0.033-1.204 0.033-2.954 0-1.625-1.346-3.108-3.033-3.108s-2.988 1.411-2.988 3.099c0 1.625-0.012 2.964-0.012 2.964h-3c-0.553 0-1 0.447-1 1 0 0.552 0 1.938 0 1.938h14c0-0.001 0-1.387 0-1.939zM16 8.969c-0.553 0-1-0.448-1-1 0-0.553 0.447-1 1-1 0.552 0 1 0.447 1 1s-0.448 1-1 1zM28 11.031l-4-0.062 0.021 3.104h-16.021v-2.979l-4-0.062c-1.104 0-2 0.896-2 2v14c0 1.104 0.896 2 2 2h24c1.104 0 2-0.896 2-2v-14c0-1.105-0.896-2.001-2-2.001zM10 16.844c1.208 0 2.188 1.287 2.188 2.875s-0.98 2.875-2.188 2.875-2.188-1.287-2.188-2.875 0.98-2.875 2.188-2.875zM5.667 25.979c0 0 0.237-1.902 0.776-2.261s2.090-0.598 2.090-0.598 1.006 1.075 1.434 1.075c0.427 0 1.433-1.075 1.433-1.075s1.552 0.238 2.091 0.598c0.633 0.422 0.791 2.261 0.791 2.261h-8.615zM26 25.031h-9v-1h9v1zM26 23.031h-9v-1h9v1zM26 21.031h-9v-1h9v1zM26 19.031h-9v-1h9v1z"></path> </g></svg>
                 Credentials
-            </a>
+            </a> -->
             <a href="skills.html">
                 <svg viewBox="0 0 256 256" width="100" height="40"  xmlns="http://www.w3.org/2000/svg"><rect fill="none" /><path d="M215.5,39.5H40.5a17,17,0,0,0-17,17v143a17,17,0,0,0,17,17h175a17,17,0,0,0,17-17V56.5A17,17,0,0,0,215.5,39.5ZM121,134.2l-40,32a7.9,7.9,0,0,1-5,1.8,7.8,7.8,0,0,1-6.2-3A7.9,7.9,0,0,1,71,153.8L103.2,128,71,102.2A8,8,0,1,1,81,89.8l40,32a7.9,7.9,0,0,1,0,12.4ZM180,168H140a8,8,0,0,1,0-16h40a8,8,0,0,1,0,16Z"/></svg>
                 Skills
@@ -64,9 +64,14 @@
 
 
     <div id="header">
-        <span class="headerLeft"><strong>ABOUT</strong></span>
+        <span class="headerLeft"><strong> CREDENTIALS </strong></span>
+        <div class="headerRight"> 
+            | <a href="#about"> About </a> |
+            <a href="#resume"> Resume </a> |
+            <a href="#transcript"> Transcript </a> |
+        </div>
     </div>
-    <div class="Content">
+    <div class="Content" id="about">
         <div class="ContentLarge">
             <h2> About Me </h2>
             I am a growth-oriented person who loves to hear the insights of others. I am open to new opportunities, so I would love to be placed on a more team-driven project to collaborate with people from diverse experiences. Here are some past and present projects that demonstrate my additional skills and interests:
@@ -78,7 +83,18 @@
             </ul>
             <br>
             Besides the programming languages I mentioned I have proficiency in, I'm actively obtaining certifications in AWS and C++ and taking coursework covering HTML/CSS, Racket, and Swift.
+        </div>
 
+        <div class="ContentLarge" id="resume">
+            <h2> Resume </h2>
+            <p> Last Updated: 12/23/2023 </p>
+            <iframe class="ResumeContentSectioniFrame" src="Other/Richard_Martinez_resume.pdf" title="Resume"></iframe>
+        </div>
+
+        <div class="ContentLarge" id="transcript">
+            <h2> Transcript </h2>
+            <p> Last Updated: 1/9/2024 </p>
+            <iframe class="ResumeContentSectioniFrame" src="Other/Testudo - Unofficial Transcript.pdf" title="Transcript"></iframe>
         </div>
     </div>
 </body>
