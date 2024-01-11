@@ -20,7 +20,8 @@ $rich-black: rgba(14, 17, 25, 1); navy
 html {
     height: 100%;
     font-family: appleFont;
-    min-width: 45rem;;
+    min-width: 45rem;
+    scroll-behavior: smooth;
 }
 
 
@@ -90,7 +91,8 @@ body {
     height: 100%;
     overflow-y: auto;
     /* background: rgba(14, 17, 24, 1); */
-    background-image: linear-gradient(rgba(14, 17, 24, 1), rgba(29, 42, 68, 1));
+    /* background-image: linear-gradient(rgba(14, 17, 24, 1), rgba(29, 42, 68, 1)); */
+    background-image: linear-gradient(rgba(14, 17, 24, 1), rgba(19,30,54,255));
     padding: 1rem;
     box-sizing: border-box;
     color: rgba(245, 250, 253, 1);
@@ -298,7 +300,6 @@ p.extra {
     overflow-y: auto;
     margin-bottom: 3rem;
 }
-
 .ContentSmallBlock h2 {
     position: sticky;
     top: 0;
@@ -458,23 +459,25 @@ p.extra {
     max-width: 300px;
     border-radius: 8px;
     font-family: 'Arial', sans-serif;
-  }
-  .address-icon {
+}
+.address-icon {
     background: url('Images/Ritchie5.jpg');
     background-size: contain;
     display: inline-block;
     width: 24px;
     height: 24px;
     margin-right: 10px;
-  }
-  .address-title {
+}
+.address-title {
     font-size: 16px;
     margin-bottom: 5px;
-  }
+}
   
-  .address {
+/* .address {
     font-size: 14px;
     line-height: 1.6;
-  }
+} */
 
-  
+#languages h3 {
+    font-size: 1.5rem;
+}
