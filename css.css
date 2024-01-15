@@ -239,6 +239,25 @@ body {
     background-color: #7b7b7b;
 }
 
+.ContentLargeAbout {
+    display: flex;
+    margin-top: 2rem;
+}
+.ContentLargeAboutInfo {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.ContentLargeAboutInfoCol {
+    margin-right: 2rem;
+}
+.ContentLargeAboutImage img {
+    width: 15rem;
+}
+.infoGroup {
+    display: flex;
+    margin-right: 2rem;
+}
+
 .ContentLargeBlock {
     display: flex;
     align-items: center;
