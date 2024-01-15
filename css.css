@@ -88,8 +88,11 @@ body {
     top: 0;
     left: 0;
     height: 100%;
+    width: 20rem;
     overflow-y: auto;
     background-image: linear-gradient(rgba(14, 17, 24, 1), rgba(19,30,54,255));
+    /* background-image: linear-gradient(rgba(4,11,20,255), rgba(19,30,54,255)); */
+    /*  */
     padding: 1rem;
     box-sizing: border-box;
     color: rgba(245, 250, 253, 1);
@@ -98,16 +101,9 @@ body {
 .SidebarProfile {
     text-align: center;
 }
-.SidebarProfileImage {
-    width: 11rem;
-    height: 11rem;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1rem double rgba(29, 42, 68, 1);
+.SidebarProfile h1 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 .SidebarProfile img {
     max-width: 100%;
@@ -117,27 +113,13 @@ body {
 .SidebarProfile img:hover {
     transform: scale(1.1);
 }
-.SidebarProfileSocialMediaIcons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-}
-.SidebarProfileSocialMediaIcons svg {
-    width: 4rem;
-    fill: rgba(245, 250, 253, 1);
-    box-sizing: border-box;
-    transition: padding 0.2s, border 0.2s;
-}
-.SidebarProfileSocialMediaIcons svg:hover {
-    padding: 0.3rem;
-}
+
 .SidebarContent a {
     color: gray;
     text-decoration: none;
     display: block;
-    margin-bottom: 3rem;
-    font-size: 1.1rem;
+    margin-top: 3rem;
+    font-size: 1rem;
 }
 .SidebarContent svg {
     width: 3rem;
@@ -153,6 +135,34 @@ body {
     fill: rgba(245, 250, 253, 1);
 }
 
+.SidebarProfileImage {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1rem double rgba(29, 42, 68, 1);
+}
+
+.SidebarProfileSocialMediaIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.SidebarProfileSocialMediaIcons svg {
+    width: 3rem;
+    fill: rgba(245, 250, 253, 1);
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    transition: padding 0.2s, border 0.2s;
+}
+.SidebarProfileSocialMediaIcons svg:hover {
+    padding: 0.3rem;
+}
 
 /* ================================================================ HEADERS ================================================================ */
 #header {
