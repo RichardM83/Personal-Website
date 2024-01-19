@@ -212,6 +212,18 @@ body {
 
 
 /* ================================================================ CONTENT TYPES ================================================================ */
+@media (max-width: 768px) {
+    .ContentLargeAbout {
+        flex-direction: column;
+    }
+    .ContentLargeAboutImage img {
+        margin-bottom: 1rem;
+    }
+    .infoGroup {
+        flex-direction: column;
+    }
+}
+
 .Content {
     margin-left: 20rem;
     padding: 3rem;
@@ -239,17 +251,9 @@ body {
     background-color: #7b7b7b;
 }
 
-
-.ContentLargeAbout
-, .ContentLargeAboutInfo, .ContentLargeAboutInfoCol {
-    flex-direction: column;
-}
-
-
-
-
 .ContentLargeAbout {
-    display: flex;
+    display:flex;
+    flex-wrap: wrap;
     margin-top: 2rem;
 }
 .ContentLargeAboutInfo {
@@ -257,6 +261,7 @@ body {
     padding-right: 1rem;
     margin-top: 0;
     padding-top: 0;
+    flex: 1;
 }
 .ContentLargeAboutInfoCol {
     margin-right: 2rem;
@@ -268,6 +273,7 @@ body {
 .infoGroup {
     display: flex;
     margin-right: 2rem;
+    flex: 1;
 }
 
 .ContentLargeBlock {
@@ -334,6 +340,7 @@ p.extra {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    flex:1;
 }
 .ContentSmallBlock {
     background: rgba(245, 250, 253, 1);
