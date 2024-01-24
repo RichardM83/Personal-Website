@@ -266,6 +266,7 @@ body {
 }
 .ContentLargeAbout img {
     width: 15rem;
+    height: 21rem;
     border-radius: 0.5rem;
 }
 .infoGroup {
