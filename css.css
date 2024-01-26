@@ -516,15 +516,18 @@ p.extra {
     overflow-x: auto;
     white-space: nowrap;
 }
-.address-container {
+.infoblockscontainer {
     color: black;
     padding: 20px;
     max-width: 300px;
     border-radius: 8px;
     font-family: 'Arial', sans-serif;
-    background-color: blue;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    border-radius: 1rem;
+    margin: 1rem;
 }
-.address-icon {
+.infoblockscontainericon {
     background: url('Images/Ritchie5.jpg');
     background-size: contain;
     display: inline-block;
@@ -532,7 +535,7 @@ p.extra {
     height: 24px;
     margin-right: 10px;
 }
-.address-title {
+.infoblockscontainertitle {
     font-size: 16px;
     margin-bottom: 5px;
 }
