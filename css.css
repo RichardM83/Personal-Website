@@ -511,13 +511,18 @@ p.extra {
 }
 
 
-
+.infoblocks {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
 .address-container {
     color: black;
     padding: 20px;
     max-width: 300px;
     border-radius: 8px;
     font-family: 'Arial', sans-serif;
+    background-color: blue;
 }
 .address-icon {
     background: url('Images/Ritchie5.jpg');
@@ -536,6 +541,7 @@ p.extra {
     font-size: 14px;
     line-height: 1.6;
 } */
+
 
 #languages h3 {
     font-size: 1.5rem;
